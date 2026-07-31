@@ -1,0 +1,83 @@
+name: Build and Push Modified Droplets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'dockerfile-*'
+  workflow_dispatch:
+
+jobs:
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      dockerfiles: ${{ steps.set-matrix.outputs.dockerfiles }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            dockerfile-*
+
+      - name: Set up matrix
+        id: set-matrix
+        run: |
+          if [ -n "${{ steps.changed-files.outputs.all_changed_files }}" ]; then
+            # Convert space-separated list to JSON array
+            FILES_JSON=$(echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -R -s -c 'split(" ") | map(select(length > 0))')
+            echo "dockerfiles=$FILES_JSON" >> $GITHUB_OUTPUT
+          else
+            echo "dockerfiles=[]" >> $GITHUB_OUTPUT
+          fi
+
+  build-and-push:
+    needs: detect-changes
+    if: ${{ needs.detect-changes.outputs.dockerfiles != '[]' && needs.detect-changes.outputs.dockerfiles != '' }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        dockerfile: ${{ fromJson(needs.detect-changes.outputs.dockerfiles) }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Extract image name
+        id: extract-name
+        run: |
+          FILENAME="${{ matrix.dockerfile }}"
+          IMAGE_NAME="${FILENAME#dockerfile-}"
+          echo "image=$IMAGE_NAME" >> $GITHUB_ENV
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Lowercase Repository Owner
+        run: |
+          OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          echo "OWNER=$OWNER" >> $GITHUB_ENV
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          push: true
+          platforms: linux/amd64,linux/arm64
+          tags: ghcr.io/${{ env.OWNER }}/${{ env.image }}:latest
+          file: ./${{ matrix.dockerfile }}

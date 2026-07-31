@@ -1,6 +1,6 @@
 ARG BASE_TAG="develop"
 ARG BASE_IMAGE="core-ubuntu-noble"
-FROM flowcaseweb/$BASE_IMAGE:$BASE_TAG
+FROM ghcr.io/vigno04/$BASE_IMAGE:$BASE_TAG
 USER root
 
 ENV HOME /home/flowcase-default-profile
