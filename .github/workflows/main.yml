@@ -82,5 +82,7 @@ jobs:
         with:
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: ghcr.io/${{ env.OWNER }}/${{ env.image }}:latest
+          tags: |
+            ghcr.io/${{ env.OWNER }}/${{ env.image }}:latest
+            ghcr.io/${{ env.OWNER }}/${{ env.image }}:develop
           file: ./${{ matrix.dockerfile }}
