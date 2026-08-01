@@ -417,7 +417,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/super-tux-kart.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/supertuxkart.png"
     },
     {
         "id": "telegram",
@@ -567,7 +567,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vs-code.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vscode.png"
     },
     {
         "id": "wine",
