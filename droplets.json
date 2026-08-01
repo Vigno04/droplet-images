@@ -12,7 +12,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/audacity.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/audacity.svg"
     },
     {
         "id": "blender",
@@ -27,7 +27,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/blender.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/blender.svg"
     },
     {
         "id": "brave",
@@ -42,7 +42,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/brave.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/brave.svg"
     },
     {
         "id": "chrome",
@@ -57,7 +57,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/chrome.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chrome.svg"
     },
     {
         "id": "chromium",
@@ -72,7 +72,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/chromium.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chromium.svg"
     },
     {
         "id": "deluge",
@@ -87,7 +87,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/deluge.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/deluge.svg"
     },
     {
         "id": "discord",
@@ -102,7 +102,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/discord.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/discord.svg"
     },
     {
         "id": "doom",
@@ -117,7 +117,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/doom.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/doom.svg"
     },
     {
         "id": "edge",
@@ -132,7 +132,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/edge.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/edge.svg"
     },
     {
         "id": "filezilla",
@@ -147,7 +147,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/filezilla.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/filezilla.svg"
     },
     {
         "id": "firefox",
@@ -162,7 +162,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/firefox.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/firefox.svg"
     },
     {
         "id": "gimp",
@@ -177,7 +177,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/gimp.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/gimp.svg"
     },
     {
         "id": "hunchly",
@@ -192,7 +192,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/hunchly.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/hunchly.svg"
     },
     {
         "id": "inkscape",
@@ -207,7 +207,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/inkscape.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/inkscape.svg"
     },
     {
         "id": "insomnia",
@@ -222,7 +222,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/insomnia.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/insomnia.svg"
     },
     {
         "id": "libre-office",
@@ -237,7 +237,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/libreoffice.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/libre-office.svg"
     },
     {
         "id": "maltego",
@@ -252,7 +252,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/maltego.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/maltego.svg"
     },
     {
         "id": "minetest",
@@ -267,7 +267,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/minetest.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/minetest.svg"
     },
     {
         "id": "nessus",
@@ -282,7 +282,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nessus.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/nessus.svg"
     },
     {
         "id": "only-office",
@@ -297,7 +297,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/only-office.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/only-office.svg"
     },
     {
         "id": "parsec",
@@ -312,7 +312,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/parsec.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/parsec.svg"
     },
     {
         "id": "pinta",
@@ -327,7 +327,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/pinta.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/pinta.svg"
     },
     {
         "id": "postman",
@@ -342,7 +342,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/postman.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/postman.svg"
     },
     {
         "id": "qbittorrent",
@@ -357,7 +357,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/qbittorrent.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/qbittorrent.svg"
     },
     {
         "id": "remmina",
@@ -372,7 +372,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/remmina.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/remmina.svg"
     },
     {
         "id": "retroarch",
@@ -387,7 +387,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/retroarch.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/retroarch.svg"
     },
     {
         "id": "signal",
@@ -402,7 +402,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/signal.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/signal.svg"
     },
     {
         "id": "slack",
@@ -417,7 +417,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/slack.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/slack.svg"
     },
     {
         "id": "spiderfoot",
@@ -432,7 +432,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/spiderfoot.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/spiderfoot.svg"
     },
     {
         "id": "steam",
@@ -447,7 +447,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/steam.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/steam.svg"
     },
     {
         "id": "sublime-text",
@@ -462,7 +462,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/sublime-text.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/sublime-text.svg"
     },
     {
         "id": "super-tux-kart",
@@ -477,7 +477,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/supertuxkart.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/super-tux-kart.svg"
     },
     {
         "id": "telegram",
@@ -492,7 +492,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/telegram.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/telegram.svg"
     },
     {
         "id": "terminal",
@@ -507,7 +507,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/terminal.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/terminal.svg"
     },
     {
         "id": "thunderbird",
@@ -522,7 +522,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/thunderbird.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/thunderbird.svg"
     },
     {
         "id": "tor-browser",
@@ -537,7 +537,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/tor.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/tor-browser.svg"
     },
     {
         "id": "ubuntu-focal-deluxe",
@@ -552,7 +552,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ubuntu.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-focal-deluxe.svg"
     },
     {
         "id": "ubuntu-jammy-deluxe",
@@ -567,7 +567,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ubuntu.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-jammy-deluxe.svg"
     },
     {
         "id": "ubuntu-noble-deluxe",
@@ -582,7 +582,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ubuntu.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-noble-deluxe.svg"
     },
     {
         "id": "unityhub",
@@ -597,7 +597,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/unityhub.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/unityhub.svg"
     },
     {
         "id": "vivaldi",
@@ -612,7 +612,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vivaldi.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vivaldi.svg"
     },
     {
         "id": "vlc",
@@ -627,7 +627,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vlc.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vlc.svg"
     },
     {
         "id": "vs-code",
@@ -642,7 +642,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vscode.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vs-code.svg"
     },
     {
         "id": "wine",
@@ -657,7 +657,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/wine.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/wine.svg"
     },
     {
         "id": "zoom",
@@ -672,6 +672,6 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/zoom.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/zoom.svg"
     }
 ]
