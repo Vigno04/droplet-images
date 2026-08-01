@@ -11,7 +11,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/audacity.svg"
     },
     {
         "id": "blender",
@@ -25,7 +26,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/blender.svg"
     },
     {
         "id": "brave",
@@ -39,7 +41,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/brave.svg"
     },
     {
         "id": "chrome",
@@ -53,7 +56,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/chrome.svg"
     },
     {
         "id": "chromium",
@@ -67,7 +71,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/chromium.svg"
     },
     {
         "id": "deluge",
@@ -81,7 +86,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/deluge.svg"
     },
     {
         "id": "discord",
@@ -95,7 +101,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/discord.svg"
     },
     {
         "id": "doom",
@@ -109,7 +116,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/doom.svg"
     },
     {
         "id": "edge",
@@ -123,7 +131,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/edge.svg"
     },
     {
         "id": "filezilla",
@@ -137,7 +146,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/filezilla.svg"
     },
     {
         "id": "firefox",
@@ -151,7 +161,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/firefox.svg"
     },
     {
         "id": "gimp",
@@ -165,7 +176,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/gimp.svg"
     },
     {
         "id": "hunchly",
@@ -179,7 +191,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/hunchly.svg"
     },
     {
         "id": "inkscape",
@@ -193,7 +206,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/inkscape.svg"
     },
     {
         "id": "insomnia",
@@ -207,7 +221,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/insomnia.svg"
     },
     {
         "id": "libre-office",
@@ -221,7 +236,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/libreoffice.svg"
     },
     {
         "id": "maltego",
@@ -235,7 +251,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/maltego.svg"
     },
     {
         "id": "minetest",
@@ -249,7 +266,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/minetest.svg"
     },
     {
         "id": "nessus",
@@ -263,7 +281,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/nessus.svg"
     },
     {
         "id": "only-office",
@@ -277,7 +296,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/only-office.svg"
     },
     {
         "id": "parsec",
@@ -291,7 +311,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/parsec.svg"
     },
     {
         "id": "pinta",
@@ -305,7 +326,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/pinta.svg"
     },
     {
         "id": "postman",
@@ -319,7 +341,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/postman.svg"
     },
     {
         "id": "qbittorrent",
@@ -333,7 +356,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/qbittorrent.svg"
     },
     {
         "id": "remmina",
@@ -347,7 +371,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/remmina.svg"
     },
     {
         "id": "retroarch",
@@ -361,7 +386,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/retroarch.svg"
     },
     {
         "id": "signal",
@@ -375,7 +401,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/signal.svg"
     },
     {
         "id": "slack",
@@ -389,7 +416,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/slack.svg"
     },
     {
         "id": "spiderfoot",
@@ -403,7 +431,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/spiderfoot.svg"
     },
     {
         "id": "steam",
@@ -417,7 +446,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/steam.svg"
     },
     {
         "id": "sublime-text",
@@ -431,7 +461,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/sublime-text.svg"
     },
     {
         "id": "super-tux-kart",
@@ -445,7 +476,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/supertuxkart.svg"
     },
     {
         "id": "telegram",
@@ -459,7 +491,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/telegram.svg"
     },
     {
         "id": "terminal",
@@ -473,7 +506,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/terminal.svg"
     },
     {
         "id": "thunderbird",
@@ -487,7 +521,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/thunderbird.svg"
     },
     {
         "id": "tor-browser",
@@ -501,7 +536,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/tor.svg"
     },
     {
         "id": "ubuntu-focal-deluxe",
@@ -515,7 +551,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ubuntu.svg"
     },
     {
         "id": "ubuntu-jammy-deluxe",
@@ -529,7 +566,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ubuntu.svg"
     },
     {
         "id": "ubuntu-noble-deluxe",
@@ -543,7 +581,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/ubuntu.svg"
     },
     {
         "id": "unityhub",
@@ -557,7 +596,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/unityhub.svg"
     },
     {
         "id": "vivaldi",
@@ -571,7 +611,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vivaldi.svg"
     },
     {
         "id": "vlc",
@@ -585,7 +626,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vlc.svg"
     },
     {
         "id": "vs-code",
@@ -599,7 +641,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/vscode.svg"
     },
     {
         "id": "wine",
@@ -613,7 +656,8 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/wine.svg"
     },
     {
         "id": "zoom",
@@ -627,6 +671,7 @@
         "container_docker_tags": [
             "latest",
             "develop"
-        ]
+        ],
+        "image_path": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/zoom.svg"
     }
 ]
