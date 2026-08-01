@@ -7,7 +7,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "audacity",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "blender",
@@ -17,7 +21,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "blender",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "brave",
@@ -27,7 +35,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "brave",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "chrome",
@@ -37,7 +49,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "chrome",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "chromium",
@@ -47,7 +63,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "chromium",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "deluge",
@@ -57,7 +77,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "deluge",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "discord",
@@ -67,7 +91,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "discord",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "doom",
@@ -77,7 +105,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "doom",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "edge",
@@ -87,7 +119,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "edge",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "filezilla",
@@ -97,7 +133,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "filezilla",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "firefox",
@@ -107,7 +147,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "firefox",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "gimp",
@@ -117,7 +161,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "gimp",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "hunchly",
@@ -127,7 +175,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "hunchly",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "inkscape",
@@ -137,7 +189,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "inkscape",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "insomnia",
@@ -147,7 +203,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "insomnia",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "libre-office",
@@ -157,7 +217,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "libre-office",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "maltego",
@@ -167,7 +231,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "maltego",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "minetest",
@@ -177,7 +245,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "minetest",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "nessus",
@@ -187,7 +259,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "nessus",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "only-office",
@@ -197,7 +273,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "only-office",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "parsec",
@@ -207,7 +287,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "parsec",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "pinta",
@@ -217,7 +301,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "pinta",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "postman",
@@ -227,7 +315,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "postman",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "qbittorrent",
@@ -237,7 +329,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "qbittorrent",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "remmina",
@@ -247,7 +343,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "remmina",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "retroarch",
@@ -257,7 +357,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "retroarch",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "signal",
@@ -267,7 +371,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "signal",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "slack",
@@ -277,7 +385,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "slack",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "spiderfoot",
@@ -287,7 +399,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "spiderfoot",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "steam",
@@ -297,7 +413,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "steam",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "sublime-text",
@@ -307,7 +427,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "sublime-text",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "super-tux-kart",
@@ -317,7 +441,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "super-tux-kart",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "telegram",
@@ -327,7 +455,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "telegram",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "terminal",
@@ -337,7 +469,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "terminal",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "thunderbird",
@@ -347,7 +483,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "thunderbird",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "tor-browser",
@@ -357,7 +497,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "tor-browser",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "ubuntu-focal-deluxe",
@@ -367,7 +511,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "ubuntu-focal-deluxe",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "ubuntu-jammy-deluxe",
@@ -377,7 +525,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "ubuntu-jammy-deluxe",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "ubuntu-noble-deluxe",
@@ -387,7 +539,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "ubuntu-noble-deluxe",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "unityhub",
@@ -397,7 +553,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "unityhub",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "vivaldi",
@@ -407,7 +567,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "vivaldi",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "vlc",
@@ -417,7 +581,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "vlc",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "vs-code",
@@ -427,7 +595,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "vs-code",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "wine",
@@ -437,7 +609,11 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "wine",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     },
     {
         "id": "zoom",
@@ -447,6 +623,10 @@
         "droplet_type": "container",
         "container_docker_registry": "ghcr.io/vigno04",
         "container_docker_image": "zoom",
-        "container_docker_tag": "latest"
+        "container_docker_tag": "latest",
+        "container_docker_tags": [
+            "latest",
+            "develop"
+        ]
     }
 ]
