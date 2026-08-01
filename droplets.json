@@ -1,0 +1,452 @@
+[
+    {
+        "id": "audacity",
+        "name": "Audacity",
+        "display_name": "Audacity",
+        "description": "Audacity Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "audacity",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "blender",
+        "name": "Blender",
+        "display_name": "Blender",
+        "description": "Blender Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "blender",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "brave",
+        "name": "Brave",
+        "display_name": "Brave",
+        "description": "Brave Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "brave",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "chrome",
+        "name": "Chrome",
+        "display_name": "Chrome",
+        "description": "Chrome Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "chrome",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "chromium",
+        "name": "Chromium",
+        "display_name": "Chromium",
+        "description": "Chromium Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "chromium",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "deluge",
+        "name": "Deluge",
+        "display_name": "Deluge",
+        "description": "Deluge Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "deluge",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "discord",
+        "name": "Discord",
+        "display_name": "Discord",
+        "description": "Discord Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "discord",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "doom",
+        "name": "Doom",
+        "display_name": "Doom",
+        "description": "Doom Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "doom",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "edge",
+        "name": "Edge",
+        "display_name": "Edge",
+        "description": "Edge Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "edge",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "filezilla",
+        "name": "Filezilla",
+        "display_name": "Filezilla",
+        "description": "Filezilla Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "filezilla",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "firefox",
+        "name": "Firefox",
+        "display_name": "Firefox",
+        "description": "Firefox Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "firefox",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "gimp",
+        "name": "Gimp",
+        "display_name": "Gimp",
+        "description": "Gimp Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "gimp",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "hunchly",
+        "name": "Hunchly",
+        "display_name": "Hunchly",
+        "description": "Hunchly Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "hunchly",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "inkscape",
+        "name": "Inkscape",
+        "display_name": "Inkscape",
+        "description": "Inkscape Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "inkscape",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "insomnia",
+        "name": "Insomnia",
+        "display_name": "Insomnia",
+        "description": "Insomnia Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "insomnia",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "libre-office",
+        "name": "Libre Office",
+        "display_name": "Libre Office",
+        "description": "Libre Office Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "libre-office",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "maltego",
+        "name": "Maltego",
+        "display_name": "Maltego",
+        "description": "Maltego Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "maltego",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "minetest",
+        "name": "Minetest",
+        "display_name": "Minetest",
+        "description": "Minetest Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "minetest",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "nessus",
+        "name": "Nessus",
+        "display_name": "Nessus",
+        "description": "Nessus Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "nessus",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "only-office",
+        "name": "Only Office",
+        "display_name": "Only Office",
+        "description": "Only Office Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "only-office",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "parsec",
+        "name": "Parsec",
+        "display_name": "Parsec",
+        "description": "Parsec Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "parsec",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "pinta",
+        "name": "Pinta",
+        "display_name": "Pinta",
+        "description": "Pinta Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "pinta",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "postman",
+        "name": "Postman",
+        "display_name": "Postman",
+        "description": "Postman Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "postman",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "qbittorrent",
+        "name": "Qbittorrent",
+        "display_name": "Qbittorrent",
+        "description": "Qbittorrent Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "qbittorrent",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "remmina",
+        "name": "Remmina",
+        "display_name": "Remmina",
+        "description": "Remmina Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "remmina",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "retroarch",
+        "name": "Retroarch",
+        "display_name": "Retroarch",
+        "description": "Retroarch Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "retroarch",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "signal",
+        "name": "Signal",
+        "display_name": "Signal",
+        "description": "Signal Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "signal",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "slack",
+        "name": "Slack",
+        "display_name": "Slack",
+        "description": "Slack Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "slack",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "spiderfoot",
+        "name": "Spiderfoot",
+        "display_name": "Spiderfoot",
+        "description": "Spiderfoot Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "spiderfoot",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "steam",
+        "name": "Steam",
+        "display_name": "Steam",
+        "description": "Steam Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "steam",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "sublime-text",
+        "name": "Sublime Text",
+        "display_name": "Sublime Text",
+        "description": "Sublime Text Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "sublime-text",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "super-tux-kart",
+        "name": "Super Tux Kart",
+        "display_name": "Super Tux Kart",
+        "description": "Super Tux Kart Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "super-tux-kart",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "telegram",
+        "name": "Telegram",
+        "display_name": "Telegram",
+        "description": "Telegram Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "telegram",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "terminal",
+        "name": "Terminal",
+        "display_name": "Terminal",
+        "description": "Terminal Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "terminal",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "thunderbird",
+        "name": "Thunderbird",
+        "display_name": "Thunderbird",
+        "description": "Thunderbird Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "thunderbird",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "tor-browser",
+        "name": "Tor Browser",
+        "display_name": "Tor Browser",
+        "description": "Tor Browser Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "tor-browser",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "ubuntu-focal-deluxe",
+        "name": "Ubuntu Focal Deluxe",
+        "display_name": "Ubuntu Focal Deluxe",
+        "description": "Ubuntu Focal Deluxe Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "ubuntu-focal-deluxe",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "ubuntu-jammy-deluxe",
+        "name": "Ubuntu Jammy Deluxe",
+        "display_name": "Ubuntu Jammy Deluxe",
+        "description": "Ubuntu Jammy Deluxe Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "ubuntu-jammy-deluxe",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "ubuntu-noble-deluxe",
+        "name": "Ubuntu Noble Deluxe",
+        "display_name": "Ubuntu Noble Deluxe",
+        "description": "Ubuntu Noble Deluxe Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "ubuntu-noble-deluxe",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "unityhub",
+        "name": "Unityhub",
+        "display_name": "Unityhub",
+        "description": "Unityhub Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "unityhub",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "vivaldi",
+        "name": "Vivaldi",
+        "display_name": "Vivaldi",
+        "description": "Vivaldi Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "vivaldi",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "vlc",
+        "name": "Vlc",
+        "display_name": "Vlc",
+        "description": "Vlc Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "vlc",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "vs-code",
+        "name": "Vs Code",
+        "display_name": "Vs Code",
+        "description": "Vs Code Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "vs-code",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "wine",
+        "name": "Wine",
+        "display_name": "Wine",
+        "description": "Wine Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "wine",
+        "container_docker_tag": "latest"
+    },
+    {
+        "id": "zoom",
+        "name": "Zoom",
+        "display_name": "Zoom",
+        "description": "Zoom Container",
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_image": "zoom",
+        "container_docker_tag": "latest"
+    }
+]
