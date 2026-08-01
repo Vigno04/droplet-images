@@ -57,7 +57,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chrome.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chrome.png"
     },
     {
         "id": "chromium",
@@ -117,7 +117,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/doom.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/doom.png"
     },
     {
         "id": "edge",
@@ -132,7 +132,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/edge.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/edge.png"
     },
     {
         "id": "filezilla",
@@ -192,7 +192,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/hunchly.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/hunchly.png"
     },
     {
         "id": "inkscape",
@@ -252,7 +252,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/maltego.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/maltego.png"
     },
     {
         "id": "minetest",
@@ -267,7 +267,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/minetest.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/minetest.png"
     },
     {
         "id": "nessus",
@@ -312,7 +312,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/parsec.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/parsec.png"
     },
     {
         "id": "pinta",
@@ -327,7 +327,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/pinta.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/pinta.png"
     },
     {
         "id": "postman",
@@ -342,7 +342,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/postman.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/postman.png"
     },
     {
         "id": "qbittorrent",
@@ -387,7 +387,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/retroarch.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/retroarch.png"
     },
     {
         "id": "signal",
@@ -507,7 +507,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/terminal.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/terminal.png"
     },
     {
         "id": "thunderbird",
@@ -612,7 +612,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vivaldi.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vivaldi.png"
     },
     {
         "id": "vlc",
@@ -627,7 +627,7 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vlc.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vlc.png"
     },
     {
         "id": "vs-code",
