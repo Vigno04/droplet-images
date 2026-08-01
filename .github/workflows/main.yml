@@ -41,6 +41,9 @@ jobs:
     needs: detect-changes
     if: ${{ needs.detect-changes.outputs.dockerfiles != '[]' && needs.detect-changes.outputs.dockerfiles != '' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     strategy:
       fail-fast: false
       matrix:
