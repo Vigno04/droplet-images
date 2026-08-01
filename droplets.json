@@ -210,21 +210,6 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/inkscape.svg"
     },
     {
-        "id": "insomnia",
-        "name": "Insomnia",
-        "display_name": "Insomnia",
-        "description": "Insomnia Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "insomnia",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest",
-            "develop"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/insomnia.svg"
-    },
-    {
         "id": "libre-office",
         "name": "Libre Office",
         "display_name": "Libre Office",
@@ -268,21 +253,6 @@
             "develop"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/minetest.png"
-    },
-    {
-        "id": "nessus",
-        "name": "Nessus",
-        "display_name": "Nessus",
-        "description": "Nessus Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "nessus",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest",
-            "develop"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/nessus.svg"
     },
     {
         "id": "only-office",
@@ -420,21 +390,6 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/slack.svg"
     },
     {
-        "id": "spiderfoot",
-        "name": "Spiderfoot",
-        "display_name": "Spiderfoot",
-        "description": "Spiderfoot Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "spiderfoot",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest",
-            "develop"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/spiderfoot.svg"
-    },
-    {
         "id": "steam",
         "name": "Steam",
         "display_name": "Steam",
@@ -448,21 +403,6 @@
             "develop"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/steam.svg"
-    },
-    {
-        "id": "sublime-text",
-        "name": "Sublime Text",
-        "display_name": "Sublime Text",
-        "description": "Sublime Text Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "sublime-text",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest",
-            "develop"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/sublime-text.svg"
     },
     {
         "id": "super-tux-kart",
@@ -583,21 +523,6 @@
             "develop"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-noble-deluxe.svg"
-    },
-    {
-        "id": "unityhub",
-        "name": "Unityhub",
-        "display_name": "Unityhub",
-        "description": "Unityhub Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "unityhub",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest",
-            "develop"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/unityhub.svg"
     },
     {
         "id": "vivaldi",
