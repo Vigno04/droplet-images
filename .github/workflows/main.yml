@@ -77,11 +77,24 @@ jobs:
           OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
           echo "OWNER=$OWNER" >> $GITHUB_ENV
 
+      - name: Determine Platforms
+        id: determine-platforms
+        run: |
+          PLATFORMS="linux/amd64,linux/arm64"
+          EXCLUDE_ARM="blender discord edge hunchly parsec qbittorrent signal steam ubuntu-focal-deluxe ubuntu-jammy-deluxe ubuntu-noble-deluxe wine"
+          for item in $EXCLUDE_ARM; do
+            if [ "${{ env.image }}" == "$item" ]; then
+              PLATFORMS="linux/amd64"
+              break
+            fi
+          done
+          echo "platforms=$PLATFORMS" >> $GITHUB_ENV
+
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
           push: true
-          platforms: linux/amd64,linux/arm64
+          platforms: ${{ env.platforms }}
           tags: |
             ghcr.io/${{ env.OWNER }}/${{ env.image }}:latest
             ghcr.io/${{ env.OWNER }}/${{ env.image }}:develop

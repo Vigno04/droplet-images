@@ -12,7 +12,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/audacity.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/audacity.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "blender",
@@ -27,7 +31,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/blender.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/blender.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "brave",
@@ -42,7 +49,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/brave.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/brave.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "chrome",
@@ -57,7 +68,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chrome.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chrome.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "chromium",
@@ -72,7 +87,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chromium.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chromium.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "deluge",
@@ -87,7 +106,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/deluge.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/deluge.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "discord",
@@ -102,7 +125,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/discord.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/discord.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "doom",
@@ -117,7 +143,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/doom.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/doom.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "edge",
@@ -132,7 +162,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/edge.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/edge.png",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "filezilla",
@@ -147,7 +180,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/filezilla.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/filezilla.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "firefox",
@@ -162,7 +199,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/firefox.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/firefox.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "gimp",
@@ -177,7 +218,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/gimp.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/gimp.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "hunchly",
@@ -192,7 +237,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/hunchly.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/hunchly.png",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "inkscape",
@@ -207,7 +255,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/inkscape.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/inkscape.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "libre-office",
@@ -222,7 +274,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/libre-office.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/libre-office.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "maltego",
@@ -237,7 +293,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/maltego.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/maltego.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "minetest",
@@ -252,7 +312,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/minetest.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/minetest.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "only-office",
@@ -267,7 +331,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/only-office.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/only-office.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "parsec",
@@ -282,7 +350,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/parsec.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/parsec.png",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "pinta",
@@ -297,7 +368,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/pinta.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/pinta.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "postman",
@@ -312,7 +387,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/postman.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/postman.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "qbittorrent",
@@ -327,7 +406,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/qbittorrent.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/qbittorrent.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "remmina",
@@ -342,7 +424,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/remmina.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/remmina.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "retroarch",
@@ -357,7 +443,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/retroarch.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/retroarch.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "signal",
@@ -372,7 +462,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/signal.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/signal.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "slack",
@@ -387,7 +480,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/slack.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/slack.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "steam",
@@ -402,7 +499,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/steam.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/steam.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "super-tux-kart",
@@ -417,7 +517,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/supertuxkart.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/supertuxkart.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "telegram",
@@ -432,7 +536,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/telegram.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/telegram.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "terminal",
@@ -447,7 +555,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/terminal.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/terminal.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "thunderbird",
@@ -462,7 +574,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/thunderbird.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/thunderbird.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "tor-browser",
@@ -477,7 +593,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/tor-browser.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/tor-browser.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "ubuntu-focal-deluxe",
@@ -492,7 +612,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-focal-deluxe.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-focal-deluxe.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "ubuntu-jammy-deluxe",
@@ -507,7 +630,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-jammy-deluxe.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-jammy-deluxe.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "ubuntu-noble-deluxe",
@@ -522,7 +648,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-noble-deluxe.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-noble-deluxe.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "vivaldi",
@@ -537,7 +666,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vivaldi.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vivaldi.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "vlc",
@@ -552,7 +685,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vlc.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vlc.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "vs-code",
@@ -567,7 +704,11 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vscode.png"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vscode.png",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     },
     {
         "id": "wine",
@@ -582,7 +723,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/wine.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/wine.svg",
+        "architectures": [
+            "amd64"
+        ]
     },
     {
         "id": "zoom",
@@ -597,6 +741,10 @@
             "latest",
             "develop"
         ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/zoom.svg"
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/zoom.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
     }
 ]
