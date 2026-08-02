@@ -9,8 +9,7 @@
         "container_docker_image": "audacity",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/audacity.svg",
         "architectures": [
@@ -28,8 +27,7 @@
         "container_docker_image": "blender",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/blender.svg",
         "architectures": [
@@ -46,8 +44,7 @@
         "container_docker_image": "brave",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/brave.svg",
         "architectures": [
@@ -65,8 +62,7 @@
         "container_docker_image": "chrome",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chrome.png",
         "architectures": [
@@ -84,8 +80,7 @@
         "container_docker_image": "chromium",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/chromium.svg",
         "architectures": [
@@ -103,8 +98,7 @@
         "container_docker_image": "deluge",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/deluge.svg",
         "architectures": [
@@ -122,8 +116,7 @@
         "container_docker_image": "discord",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/discord.svg",
         "architectures": [
@@ -140,8 +133,7 @@
         "container_docker_image": "doom",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/doom.png",
         "architectures": [
@@ -159,8 +151,7 @@
         "container_docker_image": "edge",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/edge.png",
         "architectures": [
@@ -177,8 +168,7 @@
         "container_docker_image": "filezilla",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/filezilla.svg",
         "architectures": [
@@ -196,8 +186,7 @@
         "container_docker_image": "firefox",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/firefox.svg",
         "architectures": [
@@ -215,8 +204,7 @@
         "container_docker_image": "gimp",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/gimp.svg",
         "architectures": [
@@ -234,8 +222,7 @@
         "container_docker_image": "hunchly",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/hunchly.png",
         "architectures": [
@@ -252,8 +239,7 @@
         "container_docker_image": "inkscape",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/inkscape.svg",
         "architectures": [
@@ -271,8 +257,7 @@
         "container_docker_image": "libre-office",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/libre-office.svg",
         "architectures": [
@@ -290,8 +275,7 @@
         "container_docker_image": "maltego",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/maltego.png",
         "architectures": [
@@ -309,8 +293,7 @@
         "container_docker_image": "minetest",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/minetest.png",
         "architectures": [
@@ -328,8 +311,7 @@
         "container_docker_image": "only-office",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/only-office.svg",
         "architectures": [
@@ -347,8 +329,7 @@
         "container_docker_image": "parsec",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/parsec.png",
         "architectures": [
@@ -365,8 +346,7 @@
         "container_docker_image": "pinta",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/pinta.png",
         "architectures": [
@@ -384,8 +364,7 @@
         "container_docker_image": "postman",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/postman.png",
         "architectures": [
@@ -403,8 +382,7 @@
         "container_docker_image": "qbittorrent",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/qbittorrent.svg",
         "architectures": [
@@ -421,8 +399,7 @@
         "container_docker_image": "remmina",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/remmina.svg",
         "architectures": [
@@ -440,8 +417,7 @@
         "container_docker_image": "retroarch",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/retroarch.png",
         "architectures": [
@@ -459,8 +435,7 @@
         "container_docker_image": "signal",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/signal.svg",
         "architectures": [
@@ -477,8 +452,7 @@
         "container_docker_image": "slack",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/slack.svg",
         "architectures": [
@@ -496,8 +470,7 @@
         "container_docker_image": "steam",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/steam.svg",
         "architectures": [
@@ -514,8 +487,7 @@
         "container_docker_image": "super-tux-kart",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/supertuxkart.png",
         "architectures": [
@@ -533,8 +505,7 @@
         "container_docker_image": "telegram",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/telegram.svg",
         "architectures": [
@@ -552,8 +523,7 @@
         "container_docker_image": "terminal",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/terminal.png",
         "architectures": [
@@ -571,8 +541,7 @@
         "container_docker_image": "thunderbird",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/thunderbird.svg",
         "architectures": [
@@ -590,8 +559,7 @@
         "container_docker_image": "tor-browser",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/tor-browser.svg",
         "architectures": [
@@ -609,8 +577,7 @@
         "container_docker_image": "ubuntu-focal-deluxe",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-focal-deluxe.svg",
         "architectures": [
@@ -627,8 +594,7 @@
         "container_docker_image": "ubuntu-jammy-deluxe",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-jammy-deluxe.svg",
         "architectures": [
@@ -645,8 +611,7 @@
         "container_docker_image": "ubuntu-noble-deluxe",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-noble-deluxe.svg",
         "architectures": [
@@ -663,8 +628,7 @@
         "container_docker_image": "vivaldi",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vivaldi.png",
         "architectures": [
@@ -682,8 +646,7 @@
         "container_docker_image": "vlc",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vlc.png",
         "architectures": [
@@ -701,8 +664,7 @@
         "container_docker_image": "vs-code",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/vscode.png",
         "architectures": [
@@ -720,8 +682,7 @@
         "container_docker_image": "wine",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/wine.svg",
         "architectures": [
@@ -738,8 +699,7 @@
         "container_docker_image": "zoom",
         "container_docker_tag": "latest",
         "container_docker_tags": [
-            "latest",
-            "develop"
+            "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/zoom.svg",
         "architectures": [
