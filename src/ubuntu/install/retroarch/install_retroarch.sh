@@ -8,7 +8,7 @@ apt-get update
 apt-get install -y retroarch unzip
 
 # Deskto icon
-cp /usr/share/applications/retroarch.desktop $HOME/Desktop/
+find /usr/share/applications/ -iname "*retroarch*.desktop" -exec cp {} $HOME/Desktop/retroarch.desktop \;
 chmod +x $HOME/Desktop/retroarch.desktop
 
 # Assets install

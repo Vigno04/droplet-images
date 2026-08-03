@@ -18,6 +18,7 @@ if [ "${ARCH}" == "arm64" ] ; then
   chmod +x $HOME/Desktop/telegram.desktop
 else
   wget -O /tmp/telegram.tgz "https://telegram.org/dl/desktop/linux"
+  mkdir -p /opt/
   tar -xvf /tmp/telegram.tgz -C /opt/
   rm -rf /tmp/telegram.tgz
 
