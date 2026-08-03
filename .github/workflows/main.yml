@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'dockerfile-*'
+      - 'src/**'
   workflow_dispatch:
 
 jobs:
@@ -25,13 +26,40 @@ jobs:
         with:
           files: |
             dockerfile-*
+            src/**
 
       - name: Set up matrix
         id: set-matrix
         run: |
-          if [ -n "${{ steps.changed-files.outputs.all_changed_files }}" ]; then
-            # Convert space-separated list to JSON array
-            FILES_JSON=$(echo "${{ steps.changed-files.outputs.all_changed_files }}" | jq -R -s -c 'split(" ") | map(select(length > 0))')
+          DOCKERFILES=()
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [[ "$file" == dockerfile-* ]]; then
+              # Direct dockerfile change
+              DOCKERFILES+=("$file")
+            elif [[ "$file" == src/ubuntu/install/* ]]; then
+              # Extract app name from src path: src/ubuntu/install/<app>/...
+              APP=$(echo "$file" | cut -d'/' -f4)
+              # Map common naming differences (underscores to hyphens)
+              APP_HYPHEN=$(echo "$APP" | tr '_' '-')
+              DOCKERFILE="dockerfile-${APP_HYPHEN}"
+              if [ -f "$DOCKERFILE" ]; then
+                DOCKERFILES+=("$DOCKERFILE")
+              fi
+            elif [[ "$file" == src/common/* || "$file" == src/ubuntu/install/misc/* || "$file" == src/ubuntu/install/gtk/* ]]; then
+              # Common/shared files: rebuild all dockerfiles
+              for df in dockerfile-*; do
+                DOCKERFILES+=("$df")
+              done
+              break
+            fi
+          done
+
+          # Deduplicate
+          UNIQUE=$(printf '%s\n' "${DOCKERFILES[@]}" | sort -u | tr '\n' ' ')
+
+          if [ -n "$UNIQUE" ]; then
+            FILES_JSON=$(echo "$UNIQUE" | tr ' ' '\n' | grep -v '^$' | jq -R -s -c 'split("\n") | map(select(length > 0))')
             echo "dockerfiles=$FILES_JSON" >> $GITHUB_OUTPUT
           else
             echo "dockerfiles=[]" >> $GITHUB_OUTPUT
@@ -99,3 +127,4 @@ jobs:
             ghcr.io/${{ env.OWNER }}/${{ env.image }}:latest
             ghcr.io/${{ env.OWNER }}/${{ env.image }}:develop
           file: ./${{ matrix.dockerfile }}
+
