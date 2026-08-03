@@ -337,24 +337,6 @@
         ]
     },
     {
-        "id": "pinta",
-        "name": "Pinta",
-        "display_name": "Pinta",
-        "description": "Pinta Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "pinta",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/pinta.png",
-        "architectures": [
-            "amd64",
-            "arm64"
-        ]
-    },
-    {
         "id": "postman",
         "name": "Postman",
         "display_name": "Postman",
@@ -568,57 +550,6 @@
         ]
     },
     {
-        "id": "ubuntu-focal-deluxe",
-        "name": "Ubuntu Focal Deluxe",
-        "display_name": "Ubuntu Focal Deluxe",
-        "description": "Ubuntu Focal Deluxe Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "ubuntu-focal-deluxe",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-focal-deluxe.svg",
-        "architectures": [
-            "amd64"
-        ]
-    },
-    {
-        "id": "ubuntu-jammy-deluxe",
-        "name": "Ubuntu Jammy Deluxe",
-        "display_name": "Ubuntu Jammy Deluxe",
-        "description": "Ubuntu Jammy Deluxe Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "ubuntu-jammy-deluxe",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-jammy-deluxe.svg",
-        "architectures": [
-            "amd64"
-        ]
-    },
-    {
-        "id": "ubuntu-noble-deluxe",
-        "name": "Ubuntu Noble Deluxe",
-        "display_name": "Ubuntu Noble Deluxe",
-        "description": "Ubuntu Noble Deluxe Container",
-        "droplet_type": "container",
-        "container_docker_registry": "ghcr.io/vigno04",
-        "container_docker_image": "ubuntu-noble-deluxe",
-        "container_docker_tag": "latest",
-        "container_docker_tags": [
-            "latest"
-        ],
-        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu-noble-deluxe.svg",
-        "architectures": [
-            "amd64"
-        ]
-    },
-    {
         "id": "vivaldi",
         "name": "Vivaldi",
         "display_name": "Vivaldi",
@@ -702,6 +633,48 @@
             "latest"
         ],
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/zoom.svg",
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
+    },
+    {
+        "id": "alpine",
+        "name": "Alpine",
+        "description": "A minimal Alpine Linux desktop environment.",
+        "container_docker_image": "core-alpine",
+        "default_icon": "alpine",
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/alpine.svg",
+        "require_gpu": false,
+        "require_audio": false,
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_tag": "develop",
+        "container_docker_tags": [
+            "develop",
+            "latest"
+        ],
+        "architectures": [
+            "amd64",
+            "arm64"
+        ]
+    },
+    {
+        "id": "ubuntu",
+        "name": "Ubuntu",
+        "description": "A base Ubuntu desktop environment.",
+        "container_docker_image": "core-ubuntu-noble",
+        "default_icon": "ubuntu",
+        "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/ubuntu.svg",
+        "require_gpu": false,
+        "require_audio": false,
+        "droplet_type": "container",
+        "container_docker_registry": "ghcr.io/vigno04",
+        "container_docker_tag": "develop",
+        "container_docker_tags": [
+            "develop",
+            "latest"
+        ],
         "architectures": [
             "amd64",
             "arm64"
