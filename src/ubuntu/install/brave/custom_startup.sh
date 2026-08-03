@@ -3,7 +3,7 @@ set -ex
 START_COMMAND="brave-browser"
 PGREP="brave"
 MAXIMIZE="true"
-DEFAULT_ARGS="--kiosk --disable-gpu --no-first-run"
+DEFAULT_ARGS="--disable-gpu --no-first-run"
 
 ARGS=${APP_ARGS:-$DEFAULT_ARGS}
 
