@@ -17,9 +17,10 @@ COPY ./src/ubuntu/install/parsec/custom_startup.sh $STARTUPDIR/custom_startup.sh
 RUN chmod +x $STARTUPDIR/custom_startup.sh
 RUN chmod 755 $STARTUPDIR/custom_startup.sh
 
-# Update the desktop environment to be optimized for a single application
-RUN cp $HOME/.config/xfce4/xfconf/single-application-xfce-perchannel-xml/* $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
-RUN rm -f /usr/bin/xfce4-panel
+# Update the desktop environment to be optimized for a single application (Ubuntu Noble / Openbox)
+COPY ./src/ubuntu/install/misc/single_app_openbox.sh $INST_SCRIPTS/misc/
+RUN bash $INST_SCRIPTS/misc/single_app_openbox.sh && rm -f $INST_SCRIPTS/misc/single_app_openbox.sh
+RUN rm -f /usr/bin/xfce4-panel /usr/bin/kasm-panel /usr/bin/tint2 /usr/bin/lxpanel
 
 ######### End Customizations ###########
 

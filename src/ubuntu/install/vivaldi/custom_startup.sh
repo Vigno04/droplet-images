@@ -3,11 +3,8 @@ set -ex
 START_COMMAND="vivaldi"
 PGREP="vivaldi"
 MAXIMIZE="true"
-DEFAULT_ARGS=""
+DEFAULT_ARGS="--kiosk --disable-gpu --no-first-run"
 
-if [[ $MAXIMIZE == 'true' ]] ; then
-    DEFAULT_ARGS+=" --start-maximized"
-fi
 ARGS=${APP_ARGS:-$DEFAULT_ARGS}
 
 options=$(getopt -o gau: -l go,assign,url: -n "$0" -- "$@") || exit
