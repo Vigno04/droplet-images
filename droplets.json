@@ -641,6 +641,7 @@
     {
         "id": "alpine",
         "name": "Alpine",
+        "display_name": "Alpine",
         "description": "A minimal Alpine Linux desktop environment.",
         "container_docker_image": "core-alpine",
         "default_icon": "alpine",
@@ -662,6 +663,7 @@
     {
         "id": "ubuntu",
         "name": "Ubuntu",
+        "display_name": "Ubuntu",
         "description": "A base Ubuntu desktop environment.",
         "container_docker_image": "core-ubuntu-noble",
         "default_icon": "ubuntu",
