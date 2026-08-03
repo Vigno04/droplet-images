@@ -5,7 +5,7 @@ PGREP="firefox"
 export MAXIMIZE="true"
 export MAXIMIZE_NAME="Mozilla Firefox"
 MAXIMIZE_SCRIPT=$STARTUPDIR/maximize_window.sh
-DEFAULT_ARGS="--kiosk"
+DEFAULT_ARGS="--kiosk --disable-gpu --no-first-run -profile $HOME/.mozilla/firefox/kasm"
 ARGS=${APP_ARGS:-$DEFAULT_ARGS}
 
 options=$(getopt -o gau: -l go,assign,url: -n "$0" -- "$@") || exit

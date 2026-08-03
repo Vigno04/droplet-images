@@ -16,8 +16,9 @@ COPY ./src/ubuntu/install/firefox/ $INST_SCRIPTS/firefox/
 COPY ./src/ubuntu/install/firefox/firefox.desktop $HOME/Desktop/
 RUN bash $INST_SCRIPTS/firefox/install_firefox.sh && rm -rf $INST_SCRIPTS/firefox/
 
-# Update the desktop environment to be optimized for a single application
-RUN cp $HOME/.config/xfce4/xfconf/single-application-xfce-perchannel-xml/* $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
+# Update the desktop environment to be optimized for a single application (Ubuntu Noble / Openbox)
+COPY ./src/ubuntu/install/misc/single_app_openbox.sh $INST_SCRIPTS/misc/
+RUN bash $INST_SCRIPTS/misc/single_app_openbox.sh && rm -f $INST_SCRIPTS/misc/single_app_openbox.sh
 RUN rm -f /usr/bin/xfce4-panel /usr/bin/kasm-panel /usr/bin/tint2 /usr/bin/lxpanel
 
 # Security modifications
