@@ -46,7 +46,7 @@ jobs:
               if [ -f "$DOCKERFILE" ]; then
                 DOCKERFILES+=("$DOCKERFILE")
               fi
-            elif [[ "$file" == src/common/* || "$file" == src/ubuntu/install/misc/* || "$file" == src/ubuntu/install/gtk/* ]]; then
+            elif [[ "$file" == src/common/* || "$file" == src/ubuntu/install/misc/* || "$file" == src/ubuntu/install/gtk/* || "$file" == src/ubuntu/xfce/* ]]; then
               # Common/shared files: rebuild all dockerfiles
               for df in dockerfile-*; do
                 DOCKERFILES+=("$df")
