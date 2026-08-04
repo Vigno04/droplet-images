@@ -18,7 +18,7 @@ COPY ./src/ubuntu/install/remmina/custom_startup.sh $STARTUPDIR/custom_startup.s
 RUN chmod +x $STARTUPDIR/custom_startup.sh
 RUN chmod 755 $STARTUPDIR/custom_startup.sh
 
-RUN mkdir $HOME/.config/remmina/
+RUN mkdir -p $HOME/.config/remmina/
 COPY ./src/ubuntu/install/remmina/remmina.pref $HOME/.config/remmina/remmina.pref
 RUN chown -R 1000:1000 $HOME/.config/remmina/
 

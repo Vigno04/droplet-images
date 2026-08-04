@@ -17,7 +17,7 @@ ARG DISTRO=alpine
 # Install xfce UI
 COPY ./src/ubuntu/install/xfce $INST_SCRIPTS/xfce/
 RUN bash $INST_SCRIPTS/xfce/install_xfce_ui.sh && rm -rf $INST_SCRIPTS/xfce/
-ADD ./src/$DISTRO/xfce/.config/ $HOME/.config/
+ADD ./src/ubuntu/xfce/.config/ $HOME/.config/
 RUN mkdir -p /usr/share/extra/backgrounds/
 RUN mkdir -p /usr/share/extra/icons/
 ADD ./src/common/resources/images/$BG_IMG  /usr/share/backgrounds/bg_default.png
