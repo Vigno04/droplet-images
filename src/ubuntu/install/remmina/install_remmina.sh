@@ -32,6 +32,11 @@ elif grep -q "ID=debian" /etc/os-release || grep -q "VERSION_CODENAME=noble" /et
     /var/lib/apt/lists/* \
     /var/tmp/*
   fi
+elif [ "${DISTRO}" == "alpine" ]; then
+  apk add --no-cache remmina xdotool
+  if [ -z ${SKIP_CLEAN+x} ]; then
+    rm -rf /var/cache/apk/*
+  fi
 else
   apt-get update
   apt-get install -y software-properties-common
@@ -45,9 +50,15 @@ else
     /var/tmp/*
   fi
 fi
-cp /usr/share/applications/org.remmina.Remmina.desktop $HOME/Desktop/
-chmod +x $HOME/Desktop/org.remmina.Remmina.desktop
-chown 1000:1000 $HOME/Desktop/org.remmina.Remmina.desktop
+if [ -f /usr/share/applications/org.remmina.Remmina.desktop ]; then
+  cp /usr/share/applications/org.remmina.Remmina.desktop $HOME/Desktop/
+  chmod +x $HOME/Desktop/org.remmina.Remmina.desktop
+  chown 1000:1000 $HOME/Desktop/org.remmina.Remmina.desktop
+elif [ -f /usr/share/applications/remmina.desktop ]; then
+  cp /usr/share/applications/remmina.desktop $HOME/Desktop/
+  chmod +x $HOME/Desktop/remmina.desktop
+  chown 1000:1000 $HOME/Desktop/remmina.desktop
+fi
 
 DEFAULT_PROFILE_DIR=$HOME/.local/share/remmina/defaults
 

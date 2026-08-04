@@ -26,6 +26,11 @@ elif [ "${DISTRO}" == "opensuse" ]; then
   if [ -z ${SKIP_CLEAN+x} ]; then
     zypper clean --all
   fi
+elif [ "${DISTRO}" == "alpine" ]; then
+  apk add --no-cache chromium
+  if [ -z ${SKIP_CLEAN+x} ]; then
+    rm -rf /var/cache/apk/*
+  fi
 elif grep -q "ID=debian" /etc/os-release || grep -q "ID=kali" /etc/os-release || grep -q "ID=parrot" /etc/os-release; then
   apt-get update
   apt-get install -y chromium
@@ -87,7 +92,7 @@ else
   fi
 fi
 
-if grep -q "ID=debian" /etc/os-release || grep -q "ID=kali" /etc/os-release || grep -q "ID=parrot" /etc/os-release; then
+if grep -q "ID=debian" /etc/os-release || grep -q "ID=kali" /etc/os-release || grep -q "ID=parrot" /etc/os-release || [ "${DISTRO}" == "alpine" ]; then
   REAL_BIN=chromium
 else
   REAL_BIN=chromium-browser
@@ -124,7 +129,8 @@ if [ "${DISTRO}" != "opensuse" ] && ! grep -q "ID=debian" /etc/os-release && ! g
   cp /usr/bin/chromium-browser /usr/bin/chromium
 fi
 
-if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9|almalinux8|opensuse|fedora37|fedora38|fedora39|fedora40) ]]; then
+if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9|almalinux8|opensuse|fedora37|fedora38|fedora39|fedora40|alpine) ]]; then
+  mkdir -p $HOME/.config
   cat >> $HOME/.config/mimeapps.list <<EOF
     [Default Applications]
     x-scheme-handler/http=${REAL_BIN}.desktop
@@ -140,7 +146,7 @@ if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9
     application/x-extension-xht=${REAL_BIN}.desktop
 EOF
 else
-  sed -i 's@exec -a "$0" "$HERE/chromium-browser" "$\@"@@g' /usr/bin/x-www-browser
+  sed -i 's@exec -a "$0" "$HERE/chromium-browser" "$\@"@@g' /usr/bin/x-www-browser || true
   cat >>/usr/bin/x-www-browser <<EOL
   exec -a "\$0" "\$HERE/chromium" "${CHROME_ARGS}"  "\$@"
 EOL

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -ex
-if [ "$(arch)" == "aarch64" ]; then
+if [ -x /usr/bin/telegram-desktop ]; then
   START_COMMAND="/usr/bin/telegram-desktop"
   PGREP="telegram-desktop"
-else 
+else
   START_COMMAND="/opt/Telegram/Telegram"
   PGREP="Telegram"
 fi

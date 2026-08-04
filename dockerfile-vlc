@@ -6,6 +6,8 @@ USER root
 ENV HOME /home/flowcase-default-profile
 ENV STARTUPDIR /dockerstartup
 ENV INST_SCRIPTS $STARTUPDIR/install
+ENV START_DE=openbox
+RUN apt-get update && apt-get install -y openbox && rm -rf /var/lib/apt/lists/*
 WORKDIR $HOME
 
 ######### Customize Container Here ###########

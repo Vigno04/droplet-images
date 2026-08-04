@@ -3,8 +3,13 @@
 set -e
 
 # Just remove xdg-open for Jammy and Noble
-if [[ "$(lsb_release -cs)" == @(jammy|noble) ]]; then
+if [[ "$(lsb_release -cs 2>/dev/null)" == @(jammy|noble) ]]; then
   rm -f /usr/bin/xdg-open
+  exit 0
+fi
+
+if [ "$DISTRO" = "alpine" ]; then
+  echo "Skipping restricted file chooser on Alpine"
   exit 0
 fi
 

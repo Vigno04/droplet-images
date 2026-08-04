@@ -2,8 +2,16 @@
 set -ex
 
 # Install Doom
-apt-get update
-apt-get install -y chocolate-doom doom-wad-shareware prboom-plus freedoom
+if [ "$DISTRO" = "alpine" ]; then
+  echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
+  apk add --no-cache chocolate-doom@testing
+  mkdir -p /usr/share/games/doom
+  wget -qO- https://github.com/freedoom/freedoom/releases/download/v0.12.1/freedoom-0.12.1.zip | unzip -j - -d /usr/share/games/doom || true
+  rm -f /usr/share/games/doom/*.txt /usr/share/games/doom/*.html
+else
+  apt-get update
+  apt-get install -y chocolate-doom doom-wad-shareware prboom-plus freedoom
+fi
 
 # Custom settings
 mkdir -p $HOME/.local/share/chocolate-doom
@@ -55,20 +63,26 @@ chmod +x /usr/bin/desktop_ready
 
 # Desktop icon
 DESKTOP_FILE="chocolate-doom.desktop"
-if [[ "$(lsb_release -cs)" == @(jammy|noble) ]]; then
+if [ "$DISTRO" != "alpine" ] && [[ "$(lsb_release -cs)" == @(jammy|noble) ]]; then
   DESKTOP_FILE="org.chocolate_doom.Doom.desktop"
 fi
-sed -i 's#Exec=chocolate-doom#Exec=/usr/games/chocolate-doom#g' /usr/share/applications/${DESKTOP_FILE}
-cp /usr/share/applications/${DESKTOP_FILE} $HOME/Desktop
-chmod +x $HOME/Desktop/${DESKTOP_FILE}
+if [ "$DISTRO" != "alpine" ]; then
+  sed -i 's#Exec=chocolate-doom#Exec=/usr/games/chocolate-doom#g' /usr/share/applications/${DESKTOP_FILE} || true
+fi
+cp /usr/share/applications/${DESKTOP_FILE} $HOME/Desktop || true
+chmod +x $HOME/Desktop/${DESKTOP_FILE} || true
 
 # Cleanup for app layer
 chown -R 1000:0 $HOME
-find /usr/share/ -name "icon-theme.cache" -exec rm -f {} \;
+find /usr/share/ -name "icon-theme.cache" -exec rm -f {} \; || true
 if [ -z ${SKIP_CLEAN+x} ]; then
-  apt-get autoclean
-  rm -rf \
-    /var/lib/apt/lists/* \
-    /var/tmp/* \
-    /tmp/*
+  if [ "$DISTRO" = "alpine" ]; then
+    rm -rf /var/cache/apk/*
+  else
+    apt-get autoclean
+    rm -rf \
+      /var/lib/apt/lists/* \
+      /var/tmp/* \
+      /tmp/*
+  fi
 fi

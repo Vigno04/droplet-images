@@ -21,6 +21,8 @@ if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9
   fi
 elif [ "${DISTRO}" == "opensuse" ]; then
   zypper install -yn p11-kit-tools MozillaFirefox
+elif [ "${DISTRO}" == "alpine" ]; then
+  apk add --no-cache firefox p11-kit
 elif grep -q Jammy /etc/os-release || grep -q Noble /etc/os-release; then
   if [ ! -f '/etc/apt/preferences.d/mozilla-firefox' ]; then
     add-apt-repository -y ppa:mozillateam/ppa
@@ -82,6 +84,10 @@ elif [ "${DISTRO}" == "opensuse" ]; then
   if [ -z ${SKIP_CLEAN+x} ]; then
     zypper clean --all
   fi
+elif [ "${DISTRO}" == "alpine" ]; then
+  if [ -z ${SKIP_CLEAN+x} ]; then
+    rm -rf /var/cache/apk/*
+  fi
 else
   if [ "$ARCH" == "arm64" ] && [ "$(lsb_release -cs)" == "focal" ] ; then
     echo "Firefox flash player not supported on arm64 Ubuntu Focal Skipping"
@@ -101,7 +107,7 @@ else
   fi
 fi
 
-if [[ "${DISTRO}" != @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9|almalinux8|opensuse|fedora37|fedora38|fedora39|fedora40) ]]; then
+if [[ "${DISTRO}" != @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9|almalinux8|opensuse|fedora37|fedora38|fedora39|fedora40|alpine) ]]; then
   # Update firefox to utilize the system certificate store instead of the one that ships with firefox
   rm -f /usr/lib/firefox/libnssckbi.so
   ln /usr/lib/$(arch)-linux-gnu/pkcs11/p11-kit-trust.so /usr/lib/firefox/libnssckbi.so
@@ -116,6 +122,8 @@ if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9
   sed -i -e '/homepage/d' "$preferences_file"
 elif [ "${DISTRO}" == "opensuse" ]; then
   preferences_file=/usr/lib64/firefox/browser/defaults/preferences/firefox.js
+elif [ "${DISTRO}" == "alpine" ]; then
+  preferences_file=/usr/lib/firefox/browser/defaults/preferences/firefox.js
 else
   preferences_file=/usr/lib/firefox/browser/defaults/preferences/firefox.js
 fi
@@ -153,7 +161,11 @@ if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9
 else
   # Creating Default Profile
   chown -R 0:0 $HOME
-  firefox -headless -CreateProfile "kasm $HOME/.mozilla/firefox/kasm"
+  if [ "${DISTRO}" != "alpine" ]; then
+    firefox -headless -CreateProfile "kasm $HOME/.mozilla/firefox/kasm"
+  else
+    firefox -headless -CreateProfile "kasm $HOME/.mozilla/firefox/kasm" || true
+  fi
 fi
 
 if [[ "${DISTRO}" == @(centos|oracle8|rockylinux9|rockylinux8|oracle9|almalinux9|almalinux8|opensuse|fedora37|fedora38|fedora39|fedora40) ]]; then

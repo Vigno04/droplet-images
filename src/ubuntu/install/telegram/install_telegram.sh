@@ -3,27 +3,34 @@ set -ex
 
 # Install Telegram
 ARCH=$(arch | sed 's/aarch64/arm64/g' | sed 's/x86_64/amd64/g')
-if [ "${ARCH}" == "arm64" ] ; then
-  # Telegram is not available for noble aarch64
-  if grep -q "VERSION_CODENAME=noble" /etc/os-release; then
-    exit 0
-  fi
-  apt-get update
-  apt-get install -y telegram-desktop
-  if grep -q bookworm /etc/os-release; then
-    cp /usr/share/applications/org.telegram.desktop.desktop $HOME/Desktop/telegram.desktop
-  else
-    cp /usr/share/applications/telegramdesktop.desktop $HOME/Desktop/telegram.desktop
-  fi
-  chmod +x $HOME/Desktop/telegram.desktop
+if [ "$DISTRO" = "alpine" ]; then
+  apk add --no-cache telegram-desktop
+  # Alpine installs desktop file automatically, but we can copy it to the desktop if needed
+  mkdir -p $HOME/Desktop
+  cp /usr/share/applications/org.telegram.desktop.desktop $HOME/Desktop/telegram.desktop || true
+  chmod +x $HOME/Desktop/telegram.desktop || true
 else
-  wget -O /tmp/telegram.tgz "https://telegram.org/dl/desktop/linux"
-  mkdir -p /opt/
-  tar -xvf /tmp/telegram.tgz -C /opt/
-  rm -rf /tmp/telegram.tgz
+  if [ "${ARCH}" == "arm64" ] ; then
+    # Telegram is not available for noble aarch64
+    if grep -q "VERSION_CODENAME=noble" /etc/os-release; then
+      exit 0
+    fi
+    apt-get update
+    apt-get install -y telegram-desktop
+    if grep -q bookworm /etc/os-release; then
+      cp /usr/share/applications/org.telegram.desktop.desktop $HOME/Desktop/telegram.desktop
+    else
+      cp /usr/share/applications/telegramdesktop.desktop $HOME/Desktop/telegram.desktop
+    fi
+    chmod +x $HOME/Desktop/telegram.desktop
+  else
+    wget -O /tmp/telegram.tgz "https://telegram.org/dl/desktop/linux"
+    mkdir -p /opt/
+    tar -xvf /tmp/telegram.tgz -C /opt/
+    rm -rf /tmp/telegram.tgz
 
-  wget -O /opt/Telegram/telegram_icon.png https://kasm-static-content.s3.amazonaws.com/icons/telegram.png
-  cat >/usr/share/applications/telegram.desktop <<EOL
+    wget -O /opt/Telegram/telegram_icon.png https://kasm-static-content.s3.amazonaws.com/icons/telegram.png
+    cat >/usr/share/applications/telegram.desktop <<EOL
 [Desktop Entry]
 Version=1.0
 Name=Telegram Desktop
@@ -39,17 +46,22 @@ MimeType=x-scheme-handler/tg;
 Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;
 X-GNOME-UsesNotifications=true
 EOL
-  chmod +x /usr/share/applications/telegram.desktop
-  cp /usr/share/applications/telegram.desktop $HOME/Desktop/telegram.desktop
+    chmod +x /usr/share/applications/telegram.desktop
+    cp /usr/share/applications/telegram.desktop $HOME/Desktop/telegram.desktop
+  fi
 fi
 
 # Cleanup for app layer
 chown -R 1000:0 $HOME
 find /usr/share/ -name "icon-theme.cache" -exec rm -f {} \;
 if [ -z ${SKIP_CLEAN+x} ]; then
-  apt-get autoclean
-  rm -rf \
-    /var/lib/apt/lists/* \
-    /var/tmp/* \
-    /tmp/*
+  if [ "$DISTRO" = "alpine" ]; then
+    rm -rf /var/cache/apk/*
+  else
+    apt-get autoclean
+    rm -rf \
+      /var/lib/apt/lists/* \
+      /var/tmp/* \
+      /tmp/*
+  fi
 fi
