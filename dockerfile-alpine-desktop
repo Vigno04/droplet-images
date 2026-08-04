@@ -1,0 +1,39 @@
+ARG BASE_TAG="develop"
+ARG BASE_IMAGE="core-alpine"
+FROM ghcr.io/vigno04/$BASE_IMAGE:$BASE_TAG
+USER root
+
+ENV HOME /home/flowcase-default-profile
+ENV STARTUPDIR /dockerstartup
+ENV INST_SCRIPTS $STARTUPDIR/install
+WORKDIR $HOME
+
+######### Customize Container Here ###########
+
+# Arguments for desktop setup
+ARG BG_IMG=bg_focal.png
+ARG DISTRO=alpine
+
+# Install xfce UI
+COPY ./src/ubuntu/install/xfce $INST_SCRIPTS/xfce/
+RUN bash $INST_SCRIPTS/xfce/install_xfce_ui.sh && rm -rf $INST_SCRIPTS/xfce/
+ADD ./src/$DISTRO/xfce/.config/ $HOME/.config/
+RUN mkdir -p /usr/share/extra/backgrounds/
+RUN mkdir -p /usr/share/extra/icons/
+ADD ./src/common/resources/images/$BG_IMG  /usr/share/backgrounds/bg_default.png
+ADD ./src/common/resources/images/icon_ubuntu.png /usr/share/extra/icons/icon_ubuntu.png
+ADD ./src/common/resources/images/icon_ubuntu.png /usr/share/extra/icons/icon_default.png
+
+# Set the window manager to start XFCE
+ENV START_XFCE4=1
+
+######### End Customizations ###########
+
+RUN chown 1000:0 $HOME
+RUN $STARTUPDIR/set_user_permission.sh $HOME
+
+ENV HOME /home/flowcase-user
+WORKDIR $HOME
+RUN mkdir -p $HOME && chown -R 1000:0 $HOME
+
+USER 1000

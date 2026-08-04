@@ -24,7 +24,6 @@ RUN bash $INST_SCRIPTS/misc/install_tools.sh
 
 # Update the desktop environment to be optimized for a single application (Ubuntu Noble / Openbox)
 RUN bash $INST_SCRIPTS/misc/single_app_openbox.sh && rm -rf $INST_SCRIPTS/misc/
-RUN rm -f /usr/bin/xfce4-panel /usr/bin/kasm-panel /usr/bin/tint2 /usr/bin/lxpanel
 
 # Install Google Chrome
 COPY ./src/ubuntu/install/chrome $INST_SCRIPTS/chrome/

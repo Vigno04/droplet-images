@@ -26,7 +26,6 @@ RUN chown -R 1000:1000 $HOME/.config/remmina/
 # Update the desktop environment to be optimized for a single application (Ubuntu Noble / Openbox)
 COPY ./src/ubuntu/install/misc/single_app_openbox.sh $INST_SCRIPTS/misc/
 RUN bash $INST_SCRIPTS/misc/single_app_openbox.sh && rm -f $INST_SCRIPTS/misc/single_app_openbox.sh
-RUN rm -f /usr/bin/xfce4-panel /usr/bin/kasm-panel /usr/bin/tint2 /usr/bin/lxpanel
 
 ######### End Customizations ###########
 

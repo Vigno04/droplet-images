@@ -18,7 +18,6 @@ RUN bash $INST_SCRIPTS/edge/install_edge.sh  && rm -rf $INST_SCRIPTS/edge/
 # Update the desktop environment to be optimized for a single application (Ubuntu Noble / Openbox)
 COPY ./src/ubuntu/install/misc/single_app_openbox.sh $INST_SCRIPTS/misc/
 RUN bash $INST_SCRIPTS/misc/single_app_openbox.sh && rm -f $INST_SCRIPTS/misc/single_app_openbox.sh
-RUN rm -f /usr/bin/xfce4-panel /usr/bin/kasm-panel /usr/bin/tint2 /usr/bin/lxpanel
 
 ENV KASM_RESTRICTED_FILE_CHOOSER=1
 COPY ./src/ubuntu/install/gtk/ $INST_SCRIPTS/gtk/
