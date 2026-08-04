@@ -197,7 +197,11 @@ EOL
 cat >/usr/bin/execThunar.sh <<EOL
 #!/bin/sh
 . $STARTUPDIR/generate_container_user
-/usr/bin/Thunar --daemon
+if [ -x /usr/bin/Thunar ]; then
+    /usr/bin/Thunar --daemon
+else
+    /usr/bin/thunar --daemon
+fi
 EOL
 chmod +x /usr/bin/execThunar.sh
 
