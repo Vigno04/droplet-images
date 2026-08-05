@@ -16,3 +16,12 @@ if [ -f "$OPENBOX_RC" ]; then
 else
     echo "WARNING: Openbox rc.xml not found at $OPENBOX_RC, skipping."
 fi
+
+cat >/usr/bin/desktop_ready <<'EOL'
+#!/usr/bin/env bash
+if [ -z ${START_DE+x} ]; then
+  START_DE="xfce4-session"
+fi
+until pids=$(pidof ${START_DE}); do sleep .5; done
+EOL
+chmod +x /usr/bin/desktop_ready
