@@ -7,7 +7,8 @@ ENV HOME /home/flowcase-default-profile
 ENV STARTUPDIR /dockerstartup
 ENV INST_SCRIPTS $STARTUPDIR/install
 ENV START_DE=openbox
-RUN apk add --no-cache openbox wmctrl
+RUN apk add --no-cache openbox && \
+    apk add --no-cache wmctrl --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing
 WORKDIR $HOME
 
 ######### Customize Container Here ###########
