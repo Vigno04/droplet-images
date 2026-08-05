@@ -61,6 +61,18 @@ kasm_startup() {
 
         echo "Entering process startup loop"
         set +x
+        
+        # Enforce Telegram to always stay maximized and un-minimized
+        (
+            while true; do
+                if command -v wmctrl > /dev/null; then
+                    wmctrl -r "Telegram" -b remove,hidden 2>/dev/null || true
+                    wmctrl -r "Telegram" -b add,maximized_vert,maximized_horz 2>/dev/null || true
+                fi
+                sleep 0.5
+            done
+        ) &
+
         while true
         do
             if ! pgrep -x $PGREP > /dev/null
