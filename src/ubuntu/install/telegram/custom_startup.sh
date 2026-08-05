@@ -9,7 +9,7 @@ else
 fi
 export MAXIMIZE="false"
 MAXIMIZE_SCRIPT=$STARTUPDIR/maximize_window.sh
-DEFAULT_ARGS="--no-sandbox"
+DEFAULT_ARGS="-scale 100 --no-sandbox"
 ARGS=${APP_ARGS:-$DEFAULT_ARGS}
 
 options=$(getopt -o gau: -l go,assign,url: -n "$0" -- "$@") || exit

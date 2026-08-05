@@ -4,6 +4,8 @@ set -ex
 # Install Telegram
 ARCH=$(arch | sed 's/aarch64/arm64/g' | sed 's/x86_64/amd64/g')
 if [ "$DISTRO" = "alpine" ]; then
+  sed -i '/community/s/^#//' /etc/apk/repositories
+  apk update
   apk add --no-cache telegram-desktop
   # Alpine installs desktop file automatically, but we can copy it to the desktop if needed
   mkdir -p $HOME/Desktop
