@@ -15,6 +15,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user"
         ]
     },
     {
@@ -32,6 +36,10 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/blender.svg",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user"
         ]
     },
     {
@@ -50,6 +58,12 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/BraveSoftware",
+            "/home/flowcase-user/.cache/BraveSoftware",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -68,6 +82,12 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/google-chrome",
+            "/home/flowcase-user/.cache/google-chrome",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -86,6 +106,12 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/chromium",
+            "/home/flowcase-user/.cache/chromium",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -104,6 +130,11 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/deluge",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -121,6 +152,10 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/discord.svg",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/discord"
         ]
     },
     {
@@ -139,6 +174,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/gzdoom"
         ]
     },
     {
@@ -156,6 +195,12 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/edge.png",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/microsoft-edge",
+            "/home/flowcase-user/.cache/microsoft-edge",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -174,6 +219,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user"
         ]
     },
     {
@@ -192,6 +241,12 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.mozilla",
+            "/home/flowcase-user/.cache/mozilla",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -210,6 +265,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user"
         ]
     },
     {
@@ -227,6 +286,10 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/hunchly.png",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user"
         ]
     },
     {
@@ -245,6 +308,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user"
         ]
     },
     {
@@ -263,6 +330,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user"
         ]
     },
     {
@@ -281,6 +352,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.maltego"
         ]
     },
     {
@@ -299,6 +374,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.minetest"
         ]
     },
     {
@@ -317,6 +396,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user"
         ]
     },
     {
@@ -334,6 +417,10 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/parsec.png",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.parsec"
         ]
     },
     {
@@ -352,6 +439,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/Postman"
         ]
     },
     {
@@ -369,6 +460,12 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/qbittorrent.svg",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/qBittorrent",
+            "/home/flowcase-user/.local/share/qBittorrent",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -387,6 +484,11 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/remmina",
+            "/home/flowcase-user/.local/share/remmina"
         ]
     },
     {
@@ -405,6 +507,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/retroarch"
         ]
     },
     {
@@ -422,6 +528,10 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/signal.svg",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/Signal"
         ]
     },
     {
@@ -440,6 +550,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/Slack"
         ]
     },
     {
@@ -457,6 +571,11 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/steam.svg",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.steam",
+            "/home/flowcase-user/.local/share/Steam"
         ]
     },
     {
@@ -475,6 +594,11 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/supertuxkart",
+            "/home/flowcase-user/.local/share/supertuxkart"
         ]
     },
     {
@@ -493,6 +617,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.local/share/TelegramDesktop"
         ]
     },
     {
@@ -529,6 +657,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.thunderbird"
         ]
     },
     {
@@ -547,6 +679,11 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.local/share/torbrowser",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -565,6 +702,12 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/vivaldi",
+            "/home/flowcase-user/.cache/vivaldi",
+            "/home/flowcase-user/Downloads"
         ]
     },
     {
@@ -583,6 +726,11 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/vlc",
+            "/home/flowcase-user/.local/share/vlc"
         ]
     },
     {
@@ -601,6 +749,11 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.config/Code",
+            "/home/flowcase-user/.vscode"
         ]
     },
     {
@@ -618,6 +771,10 @@
         "image_path": "https://raw.githubusercontent.com/vigno04/droplet-images/main/icons/wine.svg",
         "architectures": [
             "amd64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.wine"
         ]
     },
     {
@@ -636,6 +793,10 @@
         "architectures": [
             "amd64",
             "arm64"
+        ],
+        "save_mode": "volume",
+        "save_paths": [
+            "/home/flowcase-user/.zoom"
         ]
     },
     {
